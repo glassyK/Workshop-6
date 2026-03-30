@@ -1,8 +1,16 @@
-[
-  {
-    "requirement_id": "REQ-HAZ-001A",
-    "parent": "REQ-HAZ-001",
-    "description": "Hazard analysis shall include biological hazards",
-    "source": "117.130(a)"
-  }
-]
+{
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "description": "System must extract section number correctly"
+    },
+    {
+      "id": "REQ-2",
+      "description": "System must extract requirement text correctly"
+    },
+    {
+      "id": "REQ-3",
+      "description": "System must handle multiple sections"
+    }
+  ]
+}
