@@ -1,7 +1,28 @@
-[
+{
+  "test_cases": [
     {
-      "test_id": "TC-HAZ-001A",
-      "requirement_id": "REQ-HAZ-001A"
+      "id": "A",
+      "input": "Section 1: All users must register.",
+      "expected_output": {
+        "section": "1",
+        "requirement": "All users must register"
+      }
+    },
+    {
+      "id": "B",
+      "input": "Section 2: Users must login before access.",
+      "expected_output": {
+        "section": "2",
+        "requirement": "Users must login before access"
+      }
+    },
+    {
+      "id": "C",
+      "input": "Section 3: Password must be at least 8 characters.",
+      "expected_output": {
+        "section": "3",
+        "requirement": "Password must be at least 8 characters"
+      }
     }
   ]
-  
+}
